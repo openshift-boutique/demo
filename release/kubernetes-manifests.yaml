@@ -595,7 +595,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: loadgenerator
-  namespace: boutique-ops
+  namespace: dev-ops
 spec:
   selector:
     matchLabels:
